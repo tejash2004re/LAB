@@ -1,0 +1,24 @@
+<div>
+  <form onsubmit="return validateForm()">
+    <input type="text" placeholder="Username" id="Name"><br><br>
+    <input type="email" placeholder="Email" id="email"><br><br>
+    <input type="password" placeholder="Password" id="Pass"><br><br>
+    <input type="password" placeholder="Re-Password" id="repass"><br><br>
+    <input type="submit" value="Submit" id="sub">
+    <input type="reset" value="Reset" id="re">
+  </form>
+</div>
+<script>
+  function validateForm() {
+  var name = document.getElementById("Name").value;
+  var email = document.getElementById("email").value;
+  var pass = document.getElementById("Pass").value;
+  var repass = document.getElementById("repass").value;
+  
+  if (name === "" || email === "" || pass === "" || repass === "") {
+    alert("All fields are required.");
+    return false;
+  }
+  return true;
+}
+</script>
