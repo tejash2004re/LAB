@@ -1,0 +1,26 @@
+   <table>
+        <tr>
+            <th>Book Title</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Buy</th>
+        </tr>
+        <tr>
+            <td class="book-title">The Great Gatsby</td>
+            <td>F. Scott Fitzgerald</td>
+            <td class="price">$10.99</td>
+            <td><button>Add to Cart</button></td>
+        </tr>
+        <tr>
+            <td class="book-title">1984</td>
+            <td>George Orwell</td>
+            <td class="price">$8.99</td>
+            <td><button>Add to Cart</button></td>
+        </tr>
+        <tr>
+            <td class="book-title">To Kill a Mockingbird</td>
+            <td>Harper Lee</td>
+            <td class="price">$12.50</td>
+            <td><button>Add to Cart</button></td>
+        </tr>
+    </table>
