@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+  <title>Document</title>
+</head>
+<body>
+ <div class="main">
+ <form>
+   <input type="name" placeholder="Username"><br><br>
+   <input type="password" placeholder="password"><br><br>
+   <input type="password" placeholder="re-password"><br><br>
+   <input type="email" placeholder="email"><br><br>
+   <p>Already user ? <a href="#">Click here</a></p>
+   <button onclick="()" type="submit">Submit</button> <button type="reset">
+     Reset
+   </button>
+  </form>
+  </div>
+</body>
+</html>
