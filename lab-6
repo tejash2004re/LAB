@@ -1,0 +1,4 @@
+<script type="text/vbscript">
+    ' Display the current date and time in an alert box
+    MsgBox "Current Date and Time: " & Now
+</script>
