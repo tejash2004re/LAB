@@ -1,0 +1,3 @@
+let userInput = prompt("Enter uppercase text:");
+let lowercaseText = userInput.toLowerCase();
+console.log("Lowercase: " + lowercaseText);
